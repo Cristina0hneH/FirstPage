@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My "first" page</title>
+    <link rel="shortcut icon" href=" " type="image/x-icon"> <!--small icons that appear in the tab are written in head and they must have a certain icon image or a .png-->
+</head>
+<body>
+    <h1>THIS IS MY INDEX PAGE</h1>
+
+    <figure>
+        <img src="./Gen&I.jpg" width="50%" alt="myDandelion"/> <!--when Gen&I is in the Cats folder, the image appears broken int the web page, although the path is correct. Difernt images within the same forlder may (bad.jpeg) or may not work (dandelion.jpg).-->
+    </figure>
+    <footer>YOu're a foot</footer>
+  
+    <!--absolute(1) vs relative(2) and internal(3) links
+    1. external links
+    2. never have folders specific to my PC-->
+    <h2>Stick</h2>
+    <video src="./Stick.mp4#t=00:07" width="300" controls>something </video>
+    <p>I'm not sure what this video is because it was already in an open tab and my computer was too slow to load it by the time I copied the link</p>
+    <video src="https://www.w3schools.com/html/mov_bbb.mp4" width="300" controls>This is a video not from Youtube</video>
+<p>Magnificent, wasn't it?</p>
+<h3>Time for tables. Apparently someone found the evil</h3>
+<p>People are afraid of tables because it looks like data. People are afraid of data :(</p>
+<table border="1"> 
+    <tr><th></th><th>Col1</th><th>Col2</th><th>Col3</th><th>Col4</th></tr>
+    <tr><th>Row1</th><td>1</td><td>2</td><td>3</td><td>4</td></tr>
+    <tr><th>Row2</th><td colspan="4">One</td></tr>  <!--it loks like that in chrome bc the cells have the same size within a column-->
+    <tr><th>Row3</th><td>1</td><td>Two</td><td colspan="2">3</td></tr>
+    <caption>These are literally numbers</caption>
+</table>
+<hr>
+<details>I don't understand what this is
+       <p>Okay, now I understand</p>
+       <p>I'm trying to svae time on <abbr title="Monday">Mon</abbr> and <abbr title="Tuesday">Tue</abbr></p>
+       <p>Please remeber to drink plenty of H<sub>2</sub>O</p>
+</details>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2m7KHshiPQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <p>This video is from Youtube and I had to use iframe for it. Just copy it from the "embed" section in the share menu. Iframe and other tags (meter, button, progress, map, bdo etc) need "more" to work. And bu "more"I mean JS, CSS etc. It basically allows you to open a web page inside of your web page</p>
+<meter min="40" max="100" value="80"></meter>
+<p>I told you my Bick is Dick</p>
+<hr>
+</body>
+</html>
